@@ -1,0 +1,137 @@
+hgroup{
+    height: 90px;
+    /*background-color: goldenrod;*/
+    display: flex;
+    max-width: 100%;
+    border-color: black;
+    align-items: center;
+
+}
+
+.active{
+display: flex;
+}
+
+.navbar{
+    display: flex;
+}
+
+.content-box{
+    box-sizing: content-box;
+    width: 20px;
+}
+  
+h1{
+    flex: 4;
+    font-size: 35px;
+    font-family: 'Cinzel', serif;
+}
+
+.nav{
+    font-size: 26px;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    flex: 1;
+    align-self: flex-end;
+    border: 2px solid black;
+   color: white;
+  }
+
+body {
+    background-image: url(https://static8.depositphotos.com/1000802/873/i/950/depositphotos_8730202-stock-photo-abstract-ancient-background-in-scrapbooking.jpg
+    )
+}
+.banner{
+    object-fit: cover;
+    height: 700px;
+    width: 100%;
+    margin-top: 0px;
+}
+.offer{
+    background-color: bisque;
+    height: 85px;
+   display: flex;
+    font-family: 'Cinzel', serif;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    flex-wrap: wrap;
+    margin-bottom: 0px;
+        }
+button{
+    Margin-right: 10%;
+    margin-left: 5%;
+    height: 50px;
+    background-color: blueviolet;
+    font-size: 25px;
+    color: white;
+    border-radius: 12px;
+}
+.column1{
+    float: left;
+    width: 50%;
+}
+.column2{
+    float: right;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.video-box{
+    display: flex;
+    background-color: white;
+    margin-top: 0px;
+    justify-content: center;
+    padding-left: 15%;
+    flex-wrap: wrap;
+}
+.column1{
+    font-size: 25px;
+    }
+@media (min-width: 1200px){
+    .column1 {
+font-size: 35px;
+    }
+    }
+
+.four{
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    margin-bottom: -10px;
+    padding-bottom: -10px;
+    text-shadow: 0px 2px 3px #555;
+    color:white;
+    text-decoration: underline;
+    object-fit: cover;
+    font-size: 45px;
+}
+
+.Arch{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.author{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    max-width: 100%;
+ }
+.family{
+    flex: 1;
+}
+
+.bio{
+    flex: 1;
+}
+.span10{
+    flex: 1;
+}
